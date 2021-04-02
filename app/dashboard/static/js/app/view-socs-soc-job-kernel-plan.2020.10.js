@@ -21,14 +21,14 @@
 
 require([
     'jquery',
+    'utils/init',
     'utils/error',
     'utils/format',
     'utils/html',
-    'utils/init',
     'utils/request',
     'components/test/view',
     'URI',
-], function($, error, format, html, init, request, testView, URI) {
+], function($, init, error, format, html, request, testView, URI) {
     'use strict';
     var gSoc;
     var gJob;
