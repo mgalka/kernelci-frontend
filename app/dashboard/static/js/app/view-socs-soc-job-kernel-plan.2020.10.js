@@ -461,6 +461,6 @@ require([
 
     setTimeout(getRuns, 10);
 
-    setTimeout(init.hotkeys, 50);
-    setTimeout(init.tooltip, 50);
+    setTimeout(init.hotkeys, 500);
+    setTimeout(init.tooltip, 500);
 });
